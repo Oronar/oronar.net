@@ -87,7 +87,7 @@ pygmentscodefencesguesssyntax = true
 [[menu.main]]
     name = "Projects"
     weight = 20
-    url = "/projects"
+    url = "projects/"
 
 [[menu.main]]
     name = "Stream"
@@ -97,4 +97,4 @@ pygmentscodefencesguesssyntax = true
 [[menu.main]]
     name = "About"
     weight = 40
-    url = "/about"
+    url = "about/"
