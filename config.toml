@@ -1,0 +1,100 @@
+baseURL = "https://www.oronar.net/"
+languageCode = "en-us"
+title = "oronar.net"
+theme = "hugo-coder"
+
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+#disqusShortname = "yourdiscussshortname"
+
+[params]
+    author = "Oronar"
+    info = "a very lazy programmer"
+    description = "Oronar's personal website"
+    keywords = "blog,developer,personal"
+    #avatarurl = "images/avatar.png"
+    #gravatar = "example@example.com"
+
+    #favicon_32 = "/img/favicon-32x32.png"
+    #favicon_16 = "/img/favicon-16x16.png"
+
+    footercontent = "footer text"
+    hideFooter = true
+    hideCredits = true
+    hideCopyright = true
+    since = 2021
+
+    enableTwemoji = true
+
+    colorScheme = "dark"
+    hidecolorschemetoggle = true
+
+    #customCSS = ["css/custom.css"]
+    #customSCSS = ["scss/custom.scss"]
+    #customJS = ["js/custom.js"]
+
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
+    author = "authors"
+
+# Social links
+[[params.social]]
+   name = "Github"
+   icon = "fa fa-github fa-2x"
+   weight = 10
+   url = "https://github.com/oronar/"
+
+[[params.social]]
+    name = "Discord"
+    icon = "fa fa-discord fa-2x"
+    weight = 20
+    url = "https://discord.com/users/144618560222789632"
+
+[[params.social]]
+    name = "Matrix"
+    icon = "fa fa-matrix-org fa-2x"
+    weight = 30
+    url = "https://matrix.to/#/@oronar:oronar.net"
+
+[[params.social]]
+    name = "Steam"
+    icon = "fa fa-steam fa-2x"
+    weight = 40
+    url = "https://steamcommunity.com/id/rysatioronar"
+
+[[params.social]]
+    name = "PGP Key"
+    icon = "fa fa-key fa-2x"
+    weight = 50
+    url = "keys/pubkey.asc"
+
+
+# Menu links
+[[menu.main]]
+    name = "Posts"
+    weight = 10
+    url  = "posts/"
+
+[[menu.main]]
+    name = "Projects"
+    weight = 20
+    url = "/projects"
+
+[[menu.main]]
+    name = "Stream"
+    weight = 30
+    url = "https://stream.oronar.net"
+
+[[menu.main]]
+    name = "About"
+    weight = 40
+    url = "/about"
