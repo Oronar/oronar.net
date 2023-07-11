@@ -54,12 +54,6 @@ pygmentscodefencesguesssyntax = true
    url = "https://github.com/oronar/"
 
 [[params.social]]
-    name = "Discord"
-    icon = "fa fa-discord fa-2x"
-    weight = 20
-    url = "https://discord.com/users/144618560222789632"
-
-[[params.social]]
     name = "Matrix"
     icon = "fa fa-matrix-org fa-2x"
     weight = 30
