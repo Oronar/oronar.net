@@ -1,5 +1,5 @@
 ---
-date: 2021-01-31T14:25:09-05:00
+date: 2021-01-31
 title: "New Site"
 description: "A new oronar.net"
 authors: ["Oronar"]
